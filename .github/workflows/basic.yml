@@ -21,6 +21,3 @@ jobs:
 
       - name: Show me a second time all of this repository
         run : ls -la
-
-      - name: Changes for test
-        run : echo "bla-bla-bla"
