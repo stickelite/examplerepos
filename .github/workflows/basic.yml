@@ -11,16 +11,16 @@ jobs:
 
     steps:
       - name: Run some bash command
-      - run : echo "I'm a bash command, hello"
+        run : echo "I'm a bash command, hello"
 
       - name: Show me a list of files in this repository
-      - run : ls -la
+        run : ls -la
 
       - name: Git clone repository
-      - run : actions/checkout@v1
+        uses: actions/checkout@v1
 
       - name: Show me a second time all of this repository
-      - run : ls -la
+        run : ls -la
 
       - name: Changes for test
-      - run : echo "bla-bla-bla"
+        run : echo "bla-bla-bla"
